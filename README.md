@@ -12,14 +12,14 @@
   <a href="https://bsky.app/profile/umbra-codex.bsky.social"><img src="./assets/bluesky.svg" width="48" height="48" alt="Bluesky" title="Bluesky" /></a>
 </p>
 
-## About Me
+<h2 align="center">About Me</h2>
 
 - 🎯 Future Cloud/DevOps Engineer
 - ☸️ Kubestronaut In Progress
 - 🏠 Building & Breaking Things Within My Homelab
 - 🧪 Labs, Scripts, & Experiments Live [Here!](https://github.com/umbra-codex/lab)
 
-## Tech Stack
+<h2 align="center">Tech Stack</h2>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=linux" alt="Linux" title="Linux" />
@@ -39,7 +39,7 @@
   <img src="https://skillicons.dev/icons?i=githubactions" alt="GitHub Actions" title="GitHub Actions" />
 </p>
 
-## GitHub Stats
+<h2 align="center">GitHub Stats</h2>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=umbra-codex&theme=tokyonight&hide_border=true" alt="GitHub Streak" />

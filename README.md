@@ -14,9 +14,9 @@
 
 ## About Me
 
-- 🎯 Looking for my first DevOps / platform engineering role
+- 🎯 Future Cloud/DevOps Engineer
 - ☸️ Kubestronaut In Progress
-- 🏠 Building & Breaking Things on my homelab (Arch + Hyprland)
+- 🏠 Building & Breaking Things Within My Homelab
 - 🧪 Labs, Scripts, & Experiments Live [Here!](https://github.com/umbra-codex/lab)
 
 ## Tech Stack
@@ -29,6 +29,7 @@
   <img src="./assets/helm.svg" width="48" height="48" alt="Helm" title="Helm" />
   <img src="https://skillicons.dev/icons?i=terraform" alt="Terraform" title="Terraform" />
 </p>
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=go" alt="Go" title="Go" />
   <img src="https://skillicons.dev/icons?i=py" alt="Python" title="Python" />
@@ -41,18 +42,16 @@
 ## GitHub Stats
 
 <p align="center">
-  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile details" />
-</p>
-<p align="center">
-  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" height="170" alt="Stats" />
-  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" height="170" alt="Most commit language" />
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=umbra-codex&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=umbra-codex&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=umbra-codex&style=flat-square&color=3B82F6&label=Profile+views" alt="Profile views" />
+  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" height="170" alt="Stats" />
+  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" height="170" alt="Most Commit Language" />
+</p>
+
+<p align="center">
+  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" />
 </p>
 
 <p align="center">

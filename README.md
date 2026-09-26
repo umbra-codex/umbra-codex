@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/242390524-0c7eb6ed-663b-4ce4-bfbd-18239a38ba1b.gif" width="100%" alt="Pixel-art city street at night" />
+  <img src="https://media.giphy.com/media/5e25aUTZPcI94uMZgv/giphy.gif" width="100%" alt="VirtuaVerse pixel-art cyberpunk shop by Valenberg" />
 </p>
 
 <h2 align="center">About Me</h2>

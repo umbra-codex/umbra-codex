@@ -30,13 +30,23 @@ async function fetchLanguages(username: string, token: string): Promise<Language
       }
     }
   }`;
-  const res = await fetch("https://api.github.com/graphql", {
-    method: "POST",
-    headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
-    body: JSON.stringify({ query, variables: { login: username } }),
-  });
+  let res: Response;
+  try {
+    res = await fetch("https://api.github.com/graphql", {
+      method: "POST",
+      headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ query, variables: { login: username } }),
+    });
+  } catch (e) {
+    fail(`could not reach GitHub (${(e as Error).message})`);
+  }
   if (!res.ok) fail(`GitHub API returned ${res.status} ${res.statusText}`);
-  const json: any = await res.json();
+  let json: any;
+  try {
+    json = await res.json();
+  } catch {
+    fail("GitHub API returned a response that is not JSON");
+  }
   if (json.errors) fail(`GitHub API error: ${json.errors.map((e: any) => e.message).join("; ")}`);
   if (!json.data?.user) fail(`user "${username}" not found`);
 

@@ -33,7 +33,7 @@
   <img src="https://skillicons.dev/icons?i=go" alt="Go" title="Go" />
   <img src="https://skillicons.dev/icons?i=py" alt="Python" title="Python" />
   <img src="https://skillicons.dev/icons?i=bash" alt="Bash" title="Bash" />
-  <img src="https://skillicons.dev/icons?i=vim" alt="Vim" title="Vim" />
+  <img src="https://skillicons.dev/icons?i=neovim" alt="Neovim" title="Neovim" />
   <img src="https://skillicons.dev/icons?i=git" alt="Git" title="Git" />
   <img src="https://skillicons.dev/icons?i=githubactions" alt="GitHub Actions" title="GitHub Actions" />
 </p>

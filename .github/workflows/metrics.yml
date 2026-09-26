@@ -31,3 +31,4 @@ jobs:
             h3.field { color: #70a5fd !important; font-size: 18px !important; margin: 0 0 10px 5px !important; }
             h3.field svg { display: none !important; }
             .field.language, .field.language.details small { color: #38bdae !important; }
+            .row.fill-width { flex-direction: column !important; }

@@ -22,3 +22,12 @@ jobs:
           plugin_languages: yes
           plugin_languages_details: percentage
           plugin_languages_limit: 8
+          config_padding: 0
+          extras_css: |
+            .items-wrapper { background: #1a1b27; border-radius: 5px; margin: 0 !important; padding: 16px 18px 14px; box-sizing: border-box; }
+            svg { color: #38bdae; }
+            h2.field { display: none !important; }
+            .column { align-items: flex-start !important; }
+            h3.field { color: #70a5fd !important; font-size: 18px !important; margin: 0 0 10px 5px !important; }
+            h3.field svg { display: none !important; }
+            .field.language, .field.language.details small { color: #38bdae !important; }

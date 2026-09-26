@@ -15,27 +15,47 @@ const OUTER = 60;
 const INNER = 35;
 // Only the top languages are shown; more rows would crowd the card.
 const MAX_ROWS = 5;
-const LEGEND_SPAN = 120;
+const ROW = 25.2;
 
 function fail(message: string): never {
   console.error(`languages-card: ${message}`);
   process.exit(1);
 }
 
-async function fetchLanguages(username: string, token: string): Promise<Language[]> {
-  const query = `query($login: String!) {
+export async function fetchLanguages(username: string, token: string): Promise<Language[]> {
+  const query = `query($login: String!, $after: String) {
     user(login: $login) {
-      repositories(first: 100, ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC) {
+      repositories(first: 100, after: $after, ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC) {
+        pageInfo { hasNextPage endCursor }
         nodes { name languages(first: 50) { edges { size node { name color } } } }
       }
     }
   }`;
+  const totals = new Map<string, Language>();
+  let after: string | null = null;
+  do {
+    const page = await fetchPage(query, username, token, after);
+    for (const repo of page.nodes) {
+      // The profile repo only holds this generator, not the user's own code.
+      if (repo.name.toLowerCase() === username.toLowerCase()) continue;
+      for (const { size, node } of repo.languages.edges) {
+        const lang = totals.get(node.name) ?? { name: node.name, color: node.color ?? "#586e75", bytes: 0 };
+        lang.bytes += size;
+        totals.set(node.name, lang);
+      }
+    }
+    after = page.pageInfo.hasNextPage ? page.pageInfo.endCursor : null;
+  } while (after);
+  return [...totals.values()];
+}
+
+async function fetchPage(query: string, username: string, token: string, after: string | null): Promise<any> {
   let res: Response;
   try {
     res = await fetch("https://api.github.com/graphql", {
       method: "POST",
       headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ query, variables: { login: username } }),
+      body: JSON.stringify({ query, variables: { login: username, after } }),
     });
   } catch (e) {
     fail(`could not reach GitHub (${(e as Error).message})`);
@@ -49,18 +69,7 @@ async function fetchLanguages(username: string, token: string): Promise<Language
   }
   if (json.errors) fail(`GitHub API error: ${json.errors.map((e: any) => e.message).join("; ")}`);
   if (!json.data?.user) fail(`user "${username}" not found`);
-
-  const totals = new Map<string, Language>();
-  for (const repo of json.data.user.repositories.nodes) {
-    // The profile repo only holds this generator, not the user's own code.
-    if (repo.name.toLowerCase() === username.toLowerCase()) continue;
-    for (const { size, node } of repo.languages.edges) {
-      const lang = totals.get(node.name) ?? { name: node.name, color: node.color ?? "#586e75", bytes: 0 };
-      lang.bytes += size;
-      totals.set(node.name, lang);
-    }
-  }
-  return [...totals.values()];
+  return json.data.user.repositories;
 }
 
 const point = (r: number, angle: number) => `${r * Math.sin(angle)},${-r * Math.cos(angle)}`;
@@ -86,17 +95,21 @@ const percent = (bytes: number, total: number) => {
   return p < 0.1 ? "<0.1%" : `${p.toFixed(1)}%`;
 };
 
+// The languages the card shows: largest first, capped at MAX_ROWS.
+export function topLanguages(input: Language[]): Language[] {
+  return [...input].filter((l) => l.bytes > 0).sort((a, b) => b.bytes - a.bytes).slice(0, MAX_ROWS);
+}
+
+// Percentages are of the languages shown, so the legend and donut add up to 100%.
 export function render(input: Language[]): string {
-  const sorted = [...input].filter((l) => l.bytes > 0).sort((a, b) => b.bytes - a.bytes);
-  if (sorted.length === 0) throw new Error("no language data");
-  const languages = sorted.slice(0, MAX_ROWS);
+  const languages = topLanguages(input);
+  if (languages.length === 0) throw new Error("no language data");
   const total = languages.reduce((sum, l) => sum + l.bytes, 0);
-  const row = languages.length > 1 ? Math.min(25.2, LEGEND_SPAN / (languages.length - 1)) : 25.2;
 
   const legend = languages.map((l, i) =>
-    `<rect y="${18 + i * row}" width="14" height="14" fill="${l.color}" stroke="${BG}" style="stroke-width: 1px;"></rect>` +
-    `<text x="16.8" y="${30 + i * row}" style="fill: ${TEXT}; font-size: 14px;">${escape(shorten(l.name))}</text>` +
-    `<text x="152" y="${30 + i * row}" text-anchor="end" style="fill: ${TEXT}; font-size: 12px;">${percent(l.bytes, total)}</text>`
+    `<rect y="${18 + i * ROW}" width="14" height="14" fill="${l.color}" stroke="${BG}" style="stroke-width: 1px;"></rect>` +
+    `<text x="16.8" y="${30 + i * ROW}" style="fill: ${TEXT}; font-size: 14px;">${escape(shorten(l.name))}</text>` +
+    `<text x="152" y="${30 + i * ROW}" text-anchor="end" style="fill: ${TEXT}; font-size: 12px;">${percent(l.bytes, total)}</text>`
   ).join("");
 
   let angle = 0;
@@ -123,6 +136,7 @@ if (import.meta.main) {
   const languages = await fetchLanguages(username, token);
   if (languages.length === 0) fail("no language data found in public, non-fork repos");
   await Bun.write(outPath, render(languages));
-  const total = languages.reduce((sum, l) => sum + l.bytes, 0);
-  console.log(`languages-card: wrote ${outPath} (${languages.sort((a, b) => b.bytes - a.bytes).map((l) => `${l.name} ${percent(l.bytes, total)}`).join(", ")})`);
+  const shown = topLanguages(languages);
+  const total = shown.reduce((sum, l) => sum + l.bytes, 0);
+  console.log(`languages-card: wrote ${outPath} (${shown.map((l) => `${l.name} ${percent(l.bytes, total)}`).join(", ")})`);
 }

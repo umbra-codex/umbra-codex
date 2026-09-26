@@ -1,17 +1,3 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:3B82F6&height=180&section=header&text=Sean%20Humphreys&fontColor=ffffff&fontSize=48&fontAlignY=35" alt="Sean Humphreys" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=800&color=3B82F6&center=true&vCenter=true&width=600&lines=Aspiring+DevOps+Engineer;Working+toward+Kubestronaut;Running+a+homelab+on+Arch+Linux" alt="Typing tagline" />
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/sean-humphreys"><img src="https://skillicons.dev/icons?i=linkedin" width="48" height="48" alt="LinkedIn" title="LinkedIn" /></a>
-  <a href="mailto:umbra.codex1@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="48" height="48" alt="Email" title="Email" /></a>
-  <a href="https://x.com/Umbra_Codex"><img src="./assets/x.svg" width="48" height="48" alt="X" title="X" /></a>
-  <a href="https://bsky.app/profile/umbra-codex.bsky.social"><img src="./assets/bluesky.svg" width="48" height="48" alt="Bluesky" title="Bluesky" /></a>
-</p>
 
 <h2 align="center">About Me</h2>
 
@@ -57,6 +43,12 @@
   <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" />
 </p>
 
+<h2 align="center">Contact Me</h2>
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B82F6,100:1a1b27&height=100&section=footer" alt="" />
+  <a href="https://www.linkedin.com/in/sean-humphreys"><img src="https://skillicons.dev/icons?i=linkedin" width="48" height="48" alt="LinkedIn" title="LinkedIn" /></a>
+  <a href="https://x.com/Umbra_Codex"><img src="./assets/x.svg" width="48" height="48" alt="X" title="X" /></a>
+  <a href="https://bsky.app/profile/umbra-codex.bsky.social"><img src="./assets/bluesky.svg" width="48" height="48" alt="Bluesky" title="Bluesky" /></a>
+  <a href="mailto:umbra.codex1@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="48" height="48" alt="Email" title="Email" /></a>
 </p>
+

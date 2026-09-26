@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/sean-humphreys"><img src="https://skillicons.dev/icons?i=linkedin" width="48" height="48" alt="LinkedIn" title="LinkedIn" /></a>
+  <a href="mailto:umbra.codex1@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="48" height="48" alt="Email" title="Email" /></a>
   <a href="https://x.com/Umbra_Codex"><img src="./assets/x.svg" width="48" height="48" alt="X" title="X" /></a>
   <a href="https://bsky.app/profile/umbra-codex.bsky.social"><img src="./assets/bluesky.svg" width="48" height="48" alt="Bluesky" title="Bluesky" /></a>
 </p>

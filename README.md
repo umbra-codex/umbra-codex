@@ -1,0 +1,50 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:3B82F6&height=180&section=header&text=Sean%20Humphreys&fontColor=ffffff&fontSize=48&fontAlignY=35" alt="Sean Humphreys" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=800&color=3B82F6&center=true&vCenter=true&width=600&lines=Aspiring+DevOps+Engineer;Working+toward+Kubestronaut;Running+a+homelab+on+Arch+Linux" alt="Typing tagline" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/sean-humphreys"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:umbra.codex1@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://x.com/Umbra_Codex"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://bsky.app/profile/umbra-codex.bsky.social"><img src="https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white" alt="Bluesky" /></a>
+</p>
+
+## About me
+
+- 🎯 Looking for my first DevOps / platform engineering role
+- ☸️ Working through the CNCF certs on the way to Kubestronaut
+- 🏠 Building and breaking things on my homelab (Arch + Hyprland)
+- 🧪 Labs, scripts, and experiments live in [lab](https://github.com/umbra-codex/lab)
+
+## Tech stack
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,arch,bash,go,py,ts,bun,git,github,githubactions&perline=6&theme=dark" alt="Kubernetes, Docker, Linux, Arch, Bash, Go, Python, TypeScript, Bun, Git, GitHub, GitHub Actions" />
+  </a>
+</p>
+
+## GitHub stats
+
+<p align="center">
+  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile details" />
+</p>
+<p align="center">
+  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" height="170" alt="Stats" />
+  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" height="170" alt="Most commit language" />
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=umbra-codex&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=umbra-codex&style=flat-square&color=3B82F6&label=Profile+views" alt="Profile views" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B82F6,100:1a1b27&height=100&section=footer" alt="" />
+</p>

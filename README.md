@@ -14,10 +14,12 @@
 
 <h2 align="center">About Me</h2>
 
-- 🎯 Future Cloud/DevOps Engineer
-- ☸️ Kubestronaut In Progress
-- 🏠 Building & Breaking Things Within My Homelab
-- 🧪 Labs, Scripts, & Experiments Live [Here!](https://github.com/umbra-codex/lab)
+<p align="center">
+  🎯 Future Cloud/DevOps Engineer<br>
+  ☸️ Kubestronaut In Progress<br>
+  🏠 Building &amp; Breaking Things Within My Homelab<br>
+  🧪 Labs, Scripts, &amp; Experiments Live <a href="https://github.com/umbra-codex/lab">Here!</a>
+</p>
 
 <h2 align="center">Tech Stack</h2>
 

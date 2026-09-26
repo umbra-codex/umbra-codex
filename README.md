@@ -23,9 +23,20 @@
 ## Tech stack
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,arch,bash,go,py,ts,bun,git,github,githubactions&perline=6&theme=dark" alt="Kubernetes, Docker, Linux, Arch, Bash, Go, Python, TypeScript, Bun, Git, GitHub, GitHub Actions" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=kubernetes" alt="Kubernetes" title="Kubernetes" />
+  <img src="./assets/helm.svg" width="48" height="48" alt="Helm" title="Helm" />
+  <img src="https://skillicons.dev/icons?i=terraform" alt="Terraform" title="Terraform" />
+  <img src="https://skillicons.dev/icons?i=docker" alt="Docker" title="Docker" />
+  <img src="https://skillicons.dev/icons?i=linux" alt="Linux" title="Linux" />
+  <img src="https://skillicons.dev/icons?i=arch" alt="Arch Linux" title="Arch Linux" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=bash" alt="Bash" title="Bash" />
+  <img src="https://skillicons.dev/icons?i=go" alt="Go" title="Go" />
+  <img src="https://skillicons.dev/icons?i=py" alt="Python" title="Python" />
+  <img src="https://skillicons.dev/icons?i=vim" alt="Vim" title="Vim" />
+  <img src="https://skillicons.dev/icons?i=git" alt="Git" title="Git" />
+  <img src="https://skillicons.dev/icons?i=githubactions" alt="GitHub Actions" title="GitHub Actions" />
 </p>
 
 ## GitHub stats

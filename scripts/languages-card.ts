@@ -14,7 +14,7 @@ const TEXT = "#38bdae";
 const OUTER = 60;
 const INNER = 35;
 // Only the top languages are shown; more rows would crowd the card.
-const MAX_ROWS = 6;
+const MAX_ROWS = 5;
 const LEGEND_SPAN = 120;
 
 function fail(message: string): never {

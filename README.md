@@ -47,7 +47,10 @@
 
 <p align="center">
   <img src="./profile-summary-card-output/tokyonight/3-stats.svg" height="170" alt="Stats" />
-  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" height="170" alt="Most Commit Language" />
+</p>
+
+<p align="center">
+  <img src="./metrics.languages.svg" alt="Most Used Languages" />
 </p>
 
 <p align="center">

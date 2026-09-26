@@ -47,10 +47,7 @@
 
 <p align="center">
   <img src="./profile-summary-card-output/tokyonight/3-stats.svg" height="170" alt="Stats" />
-</p>
-
-<p align="center">
-  <img src="./metrics.languages.svg" alt="Most Used Languages" />
+  <img src="./metrics.languages.svg" height="170" alt="Most Used Languages" />
 </p>
 
 <p align="center">

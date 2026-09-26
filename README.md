@@ -1,3 +1,19 @@
+<!--
+  Where everything on this profile comes from (this comment does not show on GitHub).
+
+  Starting catalog: https://github.com/rzashakeri/beautify-github-profile
+
+  Banner GIF:        VirtuaVerse shop by Valenberg, https://valenberg.com (via Giphy)
+  Tech Stack icons:  https://github.com/tandpfun/skill-icons (https://skillicons.dev)
+                     Helm, X and Bluesky tiles are custom, in assets/, built from https://simpleicons.org
+  Streak card:       https://github.com/DenverCoder1/github-readme-streak-stats
+  Stats + profile:   https://github.com/vn7n24fzkq/github-profile-summary-cards
+                     (workflow: .github/workflows/summary-cards.yml)
+  Languages card:    our own generator, scripts/languages-card.ts
+                     (workflow: .github/workflows/languages-card.yml)
+  Contact icons:     Skill Icons (LinkedIn, Gmail) + custom tiles in assets/ (X, Bluesky)
+-->
+
 <p align="center">
   <img src="https://media.giphy.com/media/5e25aUTZPcI94uMZgv/giphy.gif" width="100%" alt="VirtuaVerse pixel-art cyberpunk shop by Valenberg" />
 </p>

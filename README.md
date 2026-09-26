@@ -12,14 +12,14 @@
   <a href="https://bsky.app/profile/umbra-codex.bsky.social"><img src="./assets/bluesky.svg" width="48" height="48" alt="Bluesky" title="Bluesky" /></a>
 </p>
 
-## About me
+## About Me
 
 - 🎯 Looking for my first DevOps / platform engineering role
-- ☸️ Working through the CNCF certs on the way to Kubestronaut
-- 🏠 Building and breaking things on my homelab (Arch + Hyprland)
-- 🧪 Labs, scripts, and experiments live in [lab](https://github.com/umbra-codex/lab)
+- ☸️ Kubestronaut In Progress
+- 🏠 Building & Breaking Things on my homelab (Arch + Hyprland)
+- 🧪 Labs, Scripts, & Experiments Live [Here!](https://github.com/umbra-codex/lab)
 
-## Tech stack
+## Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=linux" alt="Linux" title="Linux" />
@@ -38,7 +38,7 @@
   <img src="https://skillicons.dev/icons?i=githubactions" alt="GitHub Actions" title="GitHub Actions" />
 </p>
 
-## GitHub stats
+## GitHub Stats
 
 <p align="center">
   <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile details" />

@@ -7,7 +7,7 @@
   Tech Stack icons:  https://github.com/tandpfun/skill-icons (https://skillicons.dev)
                      Helm, X and Bluesky tiles are custom, in assets/, built from https://simpleicons.org
   Streak card:       https://github.com/DenverCoder1/github-readme-streak-stats
-  Stats + profile:   https://github.com/vn7n24fzkq/github-profile-summary-cards
+  Stats card:        https://github.com/vn7n24fzkq/github-profile-summary-cards
                      (workflow: .github/workflows/summary-cards.yml)
   Languages card:    our own generator, scripts/languages-card.ts
                      (workflow: .github/workflows/languages-card.yml)
@@ -58,10 +58,6 @@
 <p align="center">
   <img src="./profile-summary-card-output/tokyonight/3-stats.svg" height="170" alt="Stats" />
   <img src="./assets/languages-card.svg" height="170" alt="Most Used Languages" />
-</p>
-
-<p align="center">
-  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" />
 </p>
 
 <p align="center">

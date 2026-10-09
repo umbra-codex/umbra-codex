@@ -11,6 +11,8 @@
                      (workflow: .github/workflows/summary-cards.yml)
   Languages card:    our own generator, scripts/languages-card.ts
                      (workflow: .github/workflows/languages-card.yml)
+  Heatmap card:      our own generator, scripts/contributions-card.ts
+                     (workflow: .github/workflows/contributions-card.yml)
   Contact icons:     Skill Icons (LinkedIn, Gmail) + custom tiles in assets/ (X, Bluesky)
 -->
 
@@ -60,6 +62,10 @@
 
 <p align="center">
   <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" />
+</p>
+
+<p align="center">
+  <img src="./assets/contributions-card.svg" alt="Contributions in the Last Year" />
 </p>
 
 <h2 align="center">Contact Me</h2>

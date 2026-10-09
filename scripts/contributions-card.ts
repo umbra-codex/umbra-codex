@@ -12,8 +12,8 @@ export type Calendar = { total: number; weeks: Day[][] };
 const BG = "#1a1b27";
 const TITLE = "#70a5fd";
 const TEXT = "#38bdae";
-// Empty squares, then four steps of the card's teal toward full strength.
-const LEVELS = ["#2a2e45", "#1f5a5c", "#278279", "#30a094", "#38bdae"];
+// Empty squares, then four steps toward the cards' purple accent (#bf91f3).
+const LEVELS = ["#2a2e45", "#5c4a79", "#7d62a1", "#9e79ca", "#bf91f3"];
 // 53 weeks at this pitch span the card between its 30px side margins.
 const CELL = 10;
 const PITCH = 12;

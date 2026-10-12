@@ -49,6 +49,16 @@
   <img src="https://skillicons.dev/icons?i=githubactions" alt="GitHub Actions" title="GitHub Actions" />
 </p>
 
+<h2 align="center">Projects</h2>
+
+<p align="center">
+  🧪 <a href="https://github.com/umbra-codex/lab">lab</a> · Coursework, Homelab Builds, &amp; Experiments<br>
+  🤖 <a href="https://github.com/umbra-codex/bootdev-ai-agent">bootdev-ai-agent</a> · CLI Coding Agent Built on the Gemini API<br>
+  ☄️ <a href="https://github.com/umbra-codex/bootdev-asteroids">bootdev-asteroids</a> · Asteroids Clone in Python &amp; Pygame<br>
+  📚 <a href="https://github.com/umbra-codex/codepath-ai201-project1">codepath-ai201-project1</a> · RAG Q&amp;A Over Student Forum Threads<br>
+  👕 <a href="https://github.com/umbra-codex/codepath-ai201-project2">codepath-ai201-project2</a> · FitFindr, an Agent That Searches Clothing Listings &amp; Suggests Outfits
+</p>
+
 <h2 align="center">GitHub Stats</h2>
 
 <p align="center">

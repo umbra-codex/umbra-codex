@@ -53,8 +53,8 @@
 
 <p align="center">
   🧪 <a href="https://github.com/umbra-codex/lab">lab</a> · Coursework, Homelab Builds, &amp; Experiments<br>
-  🤖 <a href="https://github.com/umbra-codex/bootdev-ai-agent">bootdev-ai-agent</a> · CLI Coding Agent Built on the Gemini API<br>
-  ☄️ <a href="https://github.com/umbra-codex/bootdev-asteroids">bootdev-asteroids</a> · Asteroids Clone in Python &amp; Pygame<br>
+  ☁️ <a href="https://github.com/umbra-codex/project-cloud_serverless-pipeline">project-cloud_serverless-pipeline</a> · Serverless AWS Pipeline in OpenTofu (In Progress)<br>
+  🔐 <a href="https://github.com/umbra-codex/aws-secure-file-upload">aws-secure-file-upload</a> · Secure File Upload Pipeline in Terraform, Team of Four (In Progress)<br>
   📚 <a href="https://github.com/umbra-codex/codepath-ai201-project1">codepath-ai201-project1</a> · RAG Q&amp;A Over Student Forum Threads<br>
   👕 <a href="https://github.com/umbra-codex/codepath-ai201-project2">codepath-ai201-project2</a> · FitFindr, a Clothing Listing Search Agent
 </p>

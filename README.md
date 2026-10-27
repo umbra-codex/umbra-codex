@@ -57,7 +57,7 @@
   🔐 <a href="https://github.com/umbra-codex/aws-secure-file-upload">aws-secure-file-upload</a> · Secure File Upload Pipeline (In Progress)<br>
   📚 <a href="https://github.com/umbra-codex/codepath-ai201-project1">codepath-ai201-project1</a> · RAG Q&amp;A Over Student Forum Threads<br>
   👕 <a href="https://github.com/umbra-codex/codepath-ai201-project2">codepath-ai201-project2</a> · FitFindr, a Clothing Listing Search Agent<br>
-  🏷️ <a href="https://github.com/umbra-codex/codepath-ai201-project3">codepath-ai201-project3</a> · TakeMeter, a DistilBERT Classifier for r/wallstreetbets Posts
+  🏷️ <a href="https://github.com/umbra-codex/codepath-ai201-project3">codepath-ai201-project3</a> · TakeMeter, a WallStreetBets Post Classifier
 </p>
 
 <h2 align="center">GitHub Stats</h2>

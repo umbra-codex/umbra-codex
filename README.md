@@ -53,10 +53,11 @@
 
 <p align="center">
   🧪 <a href="https://github.com/umbra-codex/lab">lab</a> · Coursework, Homelab Builds, &amp; Experiments<br>
-  ☁️ <a href="https://github.com/umbra-codex/project-cloud_serverless-pipeline">project-cloud_serverless-pipeline</a> · Serverless AWS Pipeline in OpenTofu (In Progress)<br>
-  🔐 <a href="https://github.com/umbra-codex/aws-secure-file-upload">aws-secure-file-upload</a> · Secure File Upload Pipeline in Terraform, Team of Four (In Progress)<br>
+  ☁️ <a href="https://github.com/umbra-codex/project-cloud_serverless-pipeline">serverless-pipeline</a> · Serverless AWS Pipeline (In Progress)<br>
+  🔐 <a href="https://github.com/umbra-codex/aws-secure-file-upload">aws-secure-file-upload</a> · Secure File Upload Pipeline (In Progress)<br>
   📚 <a href="https://github.com/umbra-codex/codepath-ai201-project1">codepath-ai201-project1</a> · RAG Q&amp;A Over Student Forum Threads<br>
-  👕 <a href="https://github.com/umbra-codex/codepath-ai201-project2">codepath-ai201-project2</a> · FitFindr, a Clothing Listing Search Agent
+  👕 <a href="https://github.com/umbra-codex/codepath-ai201-project2">codepath-ai201-project2</a> · FitFindr, a Clothing Listing Search Agent<br>
+  🏷️ <a href="https://github.com/umbra-codex/codepath-ai201-project3">codepath-ai201-project3</a> · TakeMeter, a DistilBERT Classifier for r/wallstreetbets Posts
 </p>
 
 <h2 align="center">GitHub Stats</h2>

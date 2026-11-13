@@ -55,10 +55,10 @@
   🧪 <a href="https://github.com/umbra-codex/lab">lab</a> · Coursework, Homelab Builds, &amp; Experiments<br>
   ☁️ <a href="https://github.com/umbra-codex/project-cloud_serverless-pipeline">serverless-pipeline</a> · Serverless AWS Pipeline (In Progress)<br>
   🔐 <a href="https://github.com/umbra-codex/aws-secure-file-upload">aws-secure-file-upload</a> · Secure File Upload Pipeline (In Progress)<br>
-  📚 <a href="https://github.com/umbra-codex/codepath-ai201-project1">codepath-ai201-project1</a> · RAG Q&amp;A Over Student Forum Threads<br>
-  👕 <a href="https://github.com/umbra-codex/codepath-ai201-project2">codepath-ai201-project2</a> · FitFindr, a Clothing Listing Search Agent<br>
+  🛡️ <a href="https://github.com/umbra-codex/codepath-ai201-project4">codepath-ai201-project4</a> · Provenance Guard, an AI-Writing Detector<br>
   🏷️ <a href="https://github.com/umbra-codex/codepath-ai201-project3">codepath-ai201-project3</a> · TakeMeter, a WallStreetBets Post Classifier<br>
-  🛡️ <a href="https://github.com/umbra-codex/codepath-ai201-project4">codepath-ai201-project4</a> · Provenance Guard, an AI-Writing Detector
+  👕 <a href="https://github.com/umbra-codex/codepath-ai201-project2">codepath-ai201-project2</a> · FitFindr, a Clothing Listing Search Agent<br>
+  📚 <a href="https://github.com/umbra-codex/codepath-ai201-project1">codepath-ai201-project1</a> · RAG Q&amp;A Over Student Forum Threads
 </p>
 
 <h2 align="center">GitHub Stats</h2>
@@ -84,4 +84,3 @@
   <a href="https://bsky.app/profile/umbra-codex.bsky.social"><img src="./assets/bluesky.svg" width="48" height="48" alt="Bluesky" title="Bluesky" /></a>
   <a href="mailto:umbra.codex1@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="48" height="48" alt="Email" title="Email" /></a>
 </p>
-

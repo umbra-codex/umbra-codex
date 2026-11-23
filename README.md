@@ -53,7 +53,7 @@
 
 <p align="center">
   🧪 <a href="https://github.com/umbra-codex/lab">lab</a> · Coursework, Homelab Builds, &amp; Experiments<br>
-  ☁️ <a href="https://github.com/umbra-codex/project-cloud_serverless-pipeline">serverless-pipeline</a> · Serverless AWS Pipeline (In Progress)<br>
+  ☁️ <a href="https://github.com/umbra-codex/project-cloud_aws-serverless-pipeline">serverless-pipeline</a> · Serverless AWS Pipeline<br>
   🔐 <a href="https://github.com/umbra-codex/aws-secure-file-upload">aws-secure-file-upload</a> · Secure File Upload Pipeline (In Progress)<br>
   📚 <a href="https://github.com/umbra-codex/codepath-ai201-project1">codepath-ai201-project1</a> · RAG Q&amp;A Over Student Forum Threads<br>
   👕 <a href="https://github.com/umbra-codex/codepath-ai201-project2">codepath-ai201-project2</a> · FitFindr, a Clothing Listing Search Agent<br>
